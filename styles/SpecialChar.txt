@@ -1,0 +1,2 @@
+﻿<h1>Files to be loaded</>
+<p id="loadSpecialCharacters">~!@#$%^&*()_+}{[]:";'<>?,./"} </p>

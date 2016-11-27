@@ -1,0 +1,110 @@
+﻿body {
+    padding-top:2%; padding-left:15%; padding-right:20%; padding-bottom:2%;
+    background-color:#000000;font-size:130%;
+}
+@media screen and (max-width:1500px) {
+    .contentPage{
+        color:#000000;background-color:#1e89be;
+        left:100px;
+        height:500px;
+        margin-bottom:250px; margin-top:50px;  border:20px solid black;
+    }
+          .headerPage,.footerPage{
+              color:#125a7e;background-color:#EAECEE;           
+              text-align:center;
+          }
+          .headerPage{
+              height:25%;
+          }
+          .footerPage{
+              height:15%;
+          }
+          .mainPage{
+              padding-left:50px;height:60%;
+              padding:5%;
+              font-size:130%;
+          }
+}
+@media screen and (max-width:950px) {
+    .contentPage{
+        color:#000000;background-color:#f1e8e8;
+        left:70px;
+        height:450px;
+        margin-bottom:80px; margin-top:20px;  border:10px solid black;
+    }
+    .headerPage,.footerPage{
+        background-color:#125a7e;color:#EAECEE;           
+        text-align:center;
+
+    }
+    h1,h2{font-size:medium;}
+    .headerPage{
+              height:20%;
+          }
+    .footerPage{
+              height:10%;
+          }
+          .mainPage{
+              padding-left:40px;height:70%;
+              font-size:110%;
+          }
+}
+@media screen and (max-width:600px) {
+    .contentPage{
+        color:#000000;background-color:#1e89be;
+        left:20px;
+        height:400px;
+         margin-bottom:80px; margin-top:20px;  border:10px solid black;
+        
+    }
+    .headerPage,.footerPage{
+        background-color:#b1aeae;color:#000000;           
+        text-align:center;
+    }
+    h1,h2{font-size:90%;}
+     .headerPage{
+              height:10%;
+          }
+    .footerPage{
+              height:15%;
+          }
+   
+          .mainPage{
+              padding-left:10px;height:75%;
+              font-size:90%;padding:5%;
+          }
+}
+/*main page styles*/
+div{
+
+}
+.mainPageHeader{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:underline;font-size:larger;
+    top:5px;
+}
+.mainPageContent{
+    margin-left:5%;
+} 
+.mainPageInput{
+color:#600909;
+border:dashed 1px #125a7e;margin:1%;margin-left:10%;
+} 
+.mainPageOutput {
+margin-left:15%;
+background-color:white;
+color:red;
+width:25%;
+}
+.nextPage,.previousPage{
+    font-size:20px;
+    text-decoration:underline; 
+    color:white;
+    
+}
+.nextPage{
+    margin-left:20%;
+}
+.previousPage{
+    margin-right:40%;
+}
